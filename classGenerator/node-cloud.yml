@@ -9,3 +9,11 @@ noSqlIndexed:
     setAttribute: SimpleDB.d.ts putAttributes
     deleteAttribute: SimpleDB.d.ts deleteAttributes
     getAttributes: SimpleDB.d.ts getAttributes
+  GCP:
+    listCollections: firestore.d.ts listCollections
+    batchDelete: firestore.d.ts batch
+    batchWrite: firestore.d.ts batch
+    query: firestore.d.ts select
+    setAttribute: firestore.d.ts putAttributes
+    deleteAttribute: firestore.d.ts deleteAttributes
+    getAttributes: firestore.d.ts getAttributes

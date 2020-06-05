@@ -13,10 +13,13 @@
     "url": "git+https://github.com/cloudlibz/nodecloud.git"
   },
   "dependencies": {
-    "config": "^1.26.1",
-    "key-mirror": "^1.0.1",
+    "@google-cloud/container": "^1.7.0",
+    "@google-cloud/firestore": "^3.8.4",
+    "@google-cloud/monitoring": "^2.0.0",
     "aws-sdk": "^2.686.0",
+    "config": "^1.26.1",
     "js-yaml": "^3.14.0",
+    "key-mirror": "^1.0.1",
     "typescript": "^3.9.3"
   },
   "keywords": [
